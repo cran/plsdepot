@@ -38,9 +38,13 @@
 
   \item{cor.tu}{correlations between T and U}
 
-  \item{R2X}{explained variance of X by T}
+  \item{R2XT}{explained variance of X by T}
 
-  \item{R2Y}{explained variance of Y by T}
+  \item{R2YT}{explained variance of Y by T}
+
+  \item{R2YU}{explained variance of Y by U}
+
+  \item{R2XU}{explained variance of X by U}
 }
 \description{
   The function \code{simplsca} performs the SIMPLS

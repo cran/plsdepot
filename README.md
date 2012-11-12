@@ -35,6 +35,8 @@ I know this decision may affect the work of some people, but in the long run is 
 
 [plsdepot documentation](http://www.gastonsanchez.com/plsdepot)
 
+[PLS Modeling stuff](http://www.plsmodeling.com)
+
 
 ## Author Contact
 

@@ -1,6 +1,6 @@
-feeaa0c627e728613825818ecb28aefa *DESCRIPTION
+34e4b76f914137b4faacc1eadaf4feb1 *DESCRIPTION
 e26d59b36f932ffd77d5e575d0ab0c06 *NAMESPACE
-b44fcfc0d7f98c649e0a345febf1194d *NEWS
+8e6f5b11b99921542c581b6b6f3fea6f *NEWS
 c6cdb4c7924de58556403f6162e1b355 *R/interbat.R
 de89e538bae97e00ffb1ac23f7fc7b7d *R/nipals.R
 8a47aafefd4c4e55a92fb7ac391aadc9 *R/plot.interbat.R
@@ -21,8 +21,8 @@ ea18da8c3a63caec3cdbde14841fee83 *R/print.plsreg2.R
 f7e0e28237930c96bf2e952863b9a08b *R/print.simpls.R
 640ee3de82c90c7b900b9fa239052904 *R/print.simplsca.R
 833ae0b1d6b4584735bee2143dcc3248 *R/simpls.R
-305b3862d00f58f761828a3b10bc8d81 *R/simplsca.R
-0e1f1f9c7aada99e41423697c8340125 *README.md
+c01f8f8cbb0bdbb5b661738b6113fa78 *R/simplsca.R
+6490b19e4c23cb364b87a27801c634f0 *README.md
 181efaff7770ca4d699a1ef74d4c0e6e *data/carscomplete.rda
 630d7226c8427d6ef56d92a8e2c02b90 *data/carsmissing.rda
 fdf230a68c8feedecbed69fbb9525050 *data/cornell.rda
@@ -47,5 +47,5 @@ cf4e7f38da80ce92c465ae6abc88978b *man/plsreg1.Rd
 387fe0997c72bb71290bcd0c72df2f5c *man/plsreg2.Rd
 9e0756188441761eb080970bfb8f0614 *man/ropes.Rd
 9c5eb7eb43183942b02f2a3bf47b0c0e *man/simpls.Rd
-7d716ea7093f246f5cf4f824082c0b19 *man/simplsca.Rd
+19ad5077165845a752395f8bb8ad02f1 *man/simplsca.Rd
 2dc8e6948be974d9be1ee0196ea3ed7d *man/vehicles.Rd

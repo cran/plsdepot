@@ -1,3 +1,8 @@
+Version 0.1.17 (2012-11-12)
+------------------------------------------------------------
+
+* `simplsca` now provides all R2 coefficients for T and U components
+
 Version 0.1.16 (2012-11-05)
 ------------------------------------------------------------
 
@@ -7,7 +12,7 @@ NEW FEATURES AND FUNCTIONS
 
 * Launching the R package plsdepot 
 
-* plsdepot is born as a split from the R package "plspm"" in an effort to make the maintainance of my PLS methods much easier. 
+* plsdepot is born as a split from the R package "plspm" in an effort to make the maintainance of my PLS methods much easier. 
 
 * New implemented methods: `interbat` Tucker's Inter-Battery, `simpls` SIMPLS, `simplsca` SIMPLS Canonical Analysis
 

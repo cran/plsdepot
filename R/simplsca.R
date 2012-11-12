@@ -24,8 +24,10 @@
 #'@return \item{cor.xu}{correlations between X and U}
 #'@return \item{cor.yt}{correlations between Y and T}
 #'@return \item{cor.tu}{correlations between T and U}
-#'@return \item{R2X}{explained variance of X by T}
-#'@return \item{R2Y}{explained variance of Y by T}
+#'@return \item{R2XT}{explained variance of X by T}
+#'@return \item{R2YT}{explained variance of Y by T}
+#'@return \item{R2YU}{explained variance of Y by U}
+#'@return \item{R2XU}{explained variance of X by U}
 #'@author Gaston Sanchez
 #'@seealso \code{\link{plot.simplsca}}, \code{\link{simpls}}
 #'@references Tenenhaus, M. (1998) \emph{La Regression PLS. Theorie et
@@ -135,8 +137,10 @@ simplsca <- function(X, Y, comps=2)
   cor.yt = cor(Y, Xt)
   cor.tu = cor(cbind(Xt, Yu))
   # explained variance
-  R2X = t(apply(cor.xt^2, 1, cumsum))
-  R2Y = t(apply(cor.yt^2, 1, cumsum))
+  R2XT = t(apply(cor.xt^2, 1, cumsum))
+  R2YT = t(apply(cor.yt^2, 1, cumsum))
+  R2YU = t(apply(cor.yu^2, 1, cumsum))
+  R2XU = t(apply(cor.xu^2, 1, cumsum))
   
   # results 
   res = list(x.scores = Xt,
@@ -148,8 +152,10 @@ simplsca <- function(X, Y, comps=2)
              cor.xu = cor.xu, 
              cor.yt = cor.yt,
              cor.tu = cor.tu,
-             R2X = R2X,
-             R2Y = R2Y)
+             R2XT = R2XT,
+             R2YT = R2YT,
+             R2YU = R2YU,
+             R2XU = R2XU)
   class(res) = "simplsca"
   return(res)
 }
