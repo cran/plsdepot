@@ -5,9 +5,6 @@
 \description{
   These data are the specification of 30 vehicles in terms of various characteristics.
 }
-\usage{
-vehicles
-}
 \format{
   A data frame with 30 observations and 16 variables. 
 
@@ -36,7 +33,7 @@ vehicles
   2) Personal Auto Manuals, Insurance Services Office, 160 Water Street, New York, NY 10038. \cr
   3) Insurance Collision Report, Insurance Institute for Highway Safety, Watergate 600, Washington, DC 20037. \cr
 
-  Machine Learning Repository. \url{http://archive.ics.uci.edu/ml/datasets/Automobile}
+  Machine Learning Repository. \url{https://archive.ics.uci.edu/ml/datasets/Automobile}
 }
 \examples{
 data(vehicles)

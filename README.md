@@ -16,7 +16,7 @@ To install the development version of **plsdepot** from github (using the packag
 library(devtools)
 install_github('plsdepot',  username='gastonstat')
 ```
-More info at http://www.gastonsanchez.com/plsdepot
+More info at https://www.gastonsanchez.com/plsdepot
 
 
 ## Motivation
@@ -31,11 +31,8 @@ I know this decision may affect the work of some people, but in the long run is 
 
 
 ## Links
-[plsdepot package github](http://github.com/gastonstat/plsdepot)
 
-[plsdepot documentation](http://www.gastonsanchez.com/plsdepot)
-
-[PLS Modeling stuff](http://www.plsmodeling.com)
+[plsdepot package github](https://github.com/gastonstat/plsdepot)
 
 
 ## Author Contact

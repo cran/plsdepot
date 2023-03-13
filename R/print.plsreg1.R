@@ -1,4 +1,5 @@
-#' @S3method print plsreg1
+#' @method print plsreg1
+#' @export
 print.plsreg1 <-
   function(x, ...)
   {

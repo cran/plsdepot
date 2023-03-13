@@ -19,3 +19,9 @@ export(plsreg1)
 export(plsreg2)
 export(simpls)
 export(simplsca)
+importFrom("graphics", "abline", "arrows", "axis", "box", "lines",
+             "mtext", "par", "plot.new", "plot.window", "points",
+             "segments", "text")
+importFrom("stats", "complete.cases", "cor", "pchisq", "qf", "sd",
+             "var")
+  

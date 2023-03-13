@@ -1,4 +1,5 @@
-#' @S3method print simpls
+#' @method print simpls
+#' @export
 print.simpls <-
 function(x,...)
 {       

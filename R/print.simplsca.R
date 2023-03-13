@@ -1,4 +1,5 @@
-#' @S3method print simplsca
+#' @method print simplsca
+#' @export
 print.simplsca <-
 function(x,...)
 {       
