@@ -47,8 +47,7 @@
 #'@param \dots Further arguments are passed to labels or points.
 #'@author Gaston Sanchez
 #'@seealso \code{\link{plsreg2}}
-#'@method plot plsreg2
-#'@export
+#'@exportS3Method base::plot
 #'@examples
 #'
 #'  \dontrun{

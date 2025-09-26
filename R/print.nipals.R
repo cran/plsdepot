@@ -1,5 +1,4 @@
-#' @method print nipals
-#' @export
+#' @exportS3Method base::print
 print.nipals <-
 function(x, ...)
 {

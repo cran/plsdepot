@@ -1,5 +1,4 @@
-#' @method print plsca
-#' @export
+#' @exportS3Method base::print
 print.plsca <-
 function(x,...)
 {       

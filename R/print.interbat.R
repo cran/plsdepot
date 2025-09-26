@@ -1,5 +1,4 @@
-#' @method print interbat
-#' @export
+#' @exportS3Method base::print
 print.interbat <-
   function(x,...)
   {       

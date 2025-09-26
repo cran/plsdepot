@@ -42,8 +42,7 @@
 #'@param \dots Further arguments are passed to labels or points.
 #'@author Gaston Sanchez
 #'@seealso \code{\link{simpls}}
-#'@method plot simpls
-#'@export
+#'@exportS3Method base::plot
 #'@examples
 #'
 #'  \dontrun{

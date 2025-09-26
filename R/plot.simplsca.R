@@ -47,8 +47,7 @@
 #'@param \dots Further arguments are passed to labels or points.
 #'@author Gaston Sanchez
 #'@seealso \code{\link{simplsca}}
-#'@method plot simplsca
-#'@export
+#'@exportS3Method base::plot
 #'@examples
 #'
 #'  \dontrun{
